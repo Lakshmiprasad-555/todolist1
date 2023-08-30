@@ -1,0 +1,93 @@
+.handingpage
+{
+    background-image: url(backgrd1.jpg);
+    background-size: cover;
+    width:  1200px;
+    height:  500px;
+}
+
+.animated-text {
+    font-size: 65px;
+    color: rgb(249, 244, 248);
+    padding-top: 25%;
+    padding-left: 15%;
+    animation: slideIn 3s ease-in-out ;
+ }
+ .animated-text1
+ {
+    font-size: 50ppx;
+    color: rgb(249, 244, 248);
+    
+    animation: slidein 5s ease-in-out ;
+ }
+ @keyframes slidein {
+    0% {
+        transform: translatex(-100%);
+      }
+      100% {
+        transform: translatex(0);
+      }
+ }
+ @keyframes slideIn {
+    0% {
+      transform: translateY(-90%);
+    }
+    100% {
+      transform: translateY(-50);
+    }
+ }
+ .black
+ {
+    width:  1200px;
+    height:  500px;
+    /* background-color: black; */
+    border-radius: 5%;
+    align-items: center;
+    text-align: center;
+ }
+ .text1{
+    color: white;
+    font-size: 30px;
+    padding-top: 40px;
+
+ }
+ .text2{
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    animation: slidein 5s ease-in-out ;
+
+ }
+ .text4{
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    animation: slidein 6s ease-in-out ;
+
+ }
+ .text3{
+    color: white;
+    font-size: 30px;
+    padding-top: 30px;
+    animation: slidein 8s ease-in-out ;
+
+ }
+ .text5{
+    color: rgb(54, 51, 51);
+    font-size: 30px;
+    padding-top: 30px;
+    padding-right: 10px;
+    text-align: right;
+
+    animation: slideit 10s ease-in-out ;
+
+ }
+
+ @keyframes slideit {
+    0% {
+        transform: translatex(-100%);
+      }
+      100% {
+        transform: translatex(0%);
+      }
+ }
